@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>A read on Avatar Buddy's orchestration layer | Prepared for Liz and Stephanie</title>
+<meta name="description" content="You ship four to six function-specific agents per client and refactor them every six to nine months. A partner read on where that cycle can get cheaper." />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="hero__top">
+      <div class="hero__logo">
+        <img src="logo.png" alt="Avatar Buddy" />
+      </div>
+      <div class="hero__meta">eMerge Americas 2026 &middot; Booth SMB4</div>
+    </div>
+
+    <span class="eyebrow">Prepared for Avatar Buddy</span>
+    <h1>A read on where Avatar Buddy's <span class="highlight">orchestration layer</span> can carry more weight, and where a partner could take the rest.</h1>
+    <p class="hero__sub">A short, direct note from Matt Creamer at Eduba. Written after reading the Refresh Miami piece, the About page, and the Newbits profile. Peer-to-peer, not a sales pitch.</p>
+
+    <div class="hero__stats" aria-label="Avatar Buddy snapshot">
+      <div class="stat">
+        <div class="stat__value">32</div>
+        <div class="stat__label">Active customers, three countries</div>
+      </div>
+      <div class="stat">
+        <div class="stat__value">60%</div>
+        <div class="stat__label">ARR growth year over year</div>
+      </div>
+      <div class="stat">
+        <div class="stat__value">97.5%</div>
+        <div class="stat__label">Retention rate</div>
+      </div>
+      <div class="stat">
+        <div class="stat__value">$1.3M</div>
+        <div class="stat__label">Qualified 2026 pipeline</div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <section class="opening">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-kicker">The overlap</div>
+        <h2>You ship function-specific agents, then refactor them every six to nine months.</h2>
+      </div>
+      <div class="opening__grid">
+        <div class="opening__body">
+          <p>Thirty-two active customers across the US, Belize, and Ghana. Sixty percent ARR growth. A 97.5% retention rate. A 2026 pipeline that already qualifies at $1.3M.</p>
+          <p>Stephanie's frame that <em>70% of GenAI projects fail due to lack of internal expertise and clear roadmap</em> is the exact wedge Eduba pushes on with its own clients.</p>
+          <p>We built this page because the overlap is worth a conversation.</p>
+        </div>
+        <aside class="opening__pull">
+          <p><strong>"Avatar Buddy is building an AI company that acts more like a partner than a product."</strong></p>
+          <cite>Refresh Miami &middot; February 2026</cite>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="framework">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-kicker">How Eduba thinks about your stack</div>
+        <h2>Most teams burn budget putting models where Postgres would do the job.</h2>
+        <p>Eduba works from a simple distribution. The Buddy Suite handles the 10% well. The partnership conversation is about the 90% that sits underneath, and who carries it.</p>
+      </div>
+
+      <div class="split">
+        <article class="split__cell" data-layer="60">
+          <div class="split__bar"><span class="split__fill"></span></div>
+          <div class="split__num">60%</div>
+          <div class="split__label">Traditional code and database work</div>
+          <p class="split__copy">The part a Buddy is a wrong tool for. Schema, joins, stored procedures, reliable writes.</p>
+        </article>
+        <article class="split__cell" data-layer="30">
+          <div class="split__bar"><span class="split__fill"></span></div>
+          <div class="split__num">30%</div>
+          <div class="split__label">Rule-based logic</div>
+          <p class="split__copy">Policy, routing, eligibility, guardrails. Deterministic, testable, and cheaper than a model call.</p>
+        </article>
+        <article class="split__cell" data-layer="10">
+          <div class="split__bar"><span class="split__fill"></span></div>
+          <div class="split__num">10%</div>
+          <div class="split__label">Genuine language-model work</div>
+          <p class="split__copy">Where function-specific agents earn their keep. Summarization, reasoning-in-context, tone, translation.</p>
+        </article>
+      </div>
+
+      <div class="partner-note">
+        <strong>On the 90% underneath.</strong> Eduba partners with NLP Logix for work that sits below the orchestration layer. <a href="https://nlplogix.com/" target="_blank" rel="noopener">NLP Logix</a> has been in machine learning since 2011 and runs over 150 data scientists. That is a natural fit when a shared client's real need is data-platform work or a production pipeline.
+      </div>
+    </div>
+  </section>
+
+  <section class="evidence">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-kicker">The case and the paper</div>
+        <h2>Two artifacts that map directly to Avatar Buddy's shape.</h2>
+        <p>A prior Eduba engagement with a similar buyer profile, and a methodology paper that addresses the refactoring cycle.</p>
+      </div>
+
+      <div class="evidence__grid">
+        <article class="card">
+          <span class="card__tag">Closest engagement</span>
+          <h3>Feeld. Andrew Santus, CTO.</h3>
+          <p>A scoped sprint with a product-company CTO. Workshop, advisory calls, Organizational Context Architecture, and a Strategic Operations Framework. The output was reusable IP the team owned. For Avatar Buddy the analogous output is a context-architecture convention you can apply across thirty-two clients and every client after that.</p>
+          <div class="card__meta">
+            <span><strong>Buyer</strong>Product-company CTO</span>
+            <span><strong>Shape</strong>Scoped sprint</span>
+            <span><strong>Artifact</strong>Reusable context architecture</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <span class="card__tag card__tag--paper">The paper</span>
+          <h3>Interpretable Context Methodology: Folder Structure as Agent Architecture.</h3>
+          <p>Submitted to ACM TiiS. A layered filesystem convention (L0 identity through L4 working artifacts) with measurable interpretability and reproducibility gains. Adopt even the naming conventions and the six-to-nine-month refactoring cycle gets measurably cheaper.</p>
+          <div class="card__links">
+            <a href="https://github.com/RinDig/Interpretable-Context-Methodology-ICM-" target="_blank" rel="noopener">github.com/RinDig/Interpretable-Context-Methodology-ICM-</a>
+          </div>
+          <div class="card__meta">
+            <span><strong>Status</strong>Submitted, ACM TiiS</span>
+            <span><strong>License</strong>MIT</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="credibility">
+    <div class="container">
+      <span class="credibility__badge">One credibility line</span>
+      <p><strong>Jake and Matt built an online community to 22,000 members in five weeks.</strong> Distribution and product instinct. Back to the work.</p>
+    </div>
+  </section>
+
+  <section class="cta" id="call">
+    <div class="container">
+      <div class="cta__wrap">
+        <div>
+          <div class="section-kicker">The next step</div>
+          <h2>Bring one Buddy spec, and we will walk the ICM layer against it live.</h2>
+          <p>Thirty minutes, peer to peer. If the methodology maps, the rest of the conversation is about shape: licensing, co-delivery, or a downstream handoff when the need sits below the orchestration layer. If it does not map, we will both learn that quickly and go back to our respective calendars.</p>
+        </div>
+
+        <aside class="cta__host">
+          <div class="host-row">
+            <div class="host-avatar" aria-hidden="true">MC</div>
+            <div>
+              <div class="host-row__name">Matt Creamer</div>
+              <div class="host-row__title">Chief Revenue Officer, Eduba</div>
+            </div>
+          </div>
+          <a class="btn" href="https://calendly.com/thecro-eduba/30min" target="_blank" rel="noopener">
+            Pick a 30-minute slot with Matt
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="M13 5l7 7-7 7"/></svg>
+          </a>
+          <div class="cta__meta">Bring one Buddy spec that has already been refactored once.</div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <div>Prepared by Eduba. <a href="https://eduba.io" target="_blank" rel="noopener">eduba.io</a></div>
+      <div class="footer-right">A private note for Avatar Buddy. Not published or indexed.</div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
